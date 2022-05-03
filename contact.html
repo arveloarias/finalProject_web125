@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy News</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .center{
+            background-color: #333333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <!-- MENU -->
+    <header>
+        <nav class="header">
+            <ul class="logo">
+                <li><a href="index.html">E/N</a></li>
+            </ul>
+            <ul class="nav-bar">
+                <li><a href="index.html">EASY NEWS</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <ul class="menu">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <img class="fa" src="images/Asset.svg" width="50px" alt="">
+                    </button>
+                </ul>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="all-news.html">All News</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- LOGO -->
+
+
+    <!-- MAIN -->
+    <main>
+        <div class="main">
+            <div class="left"></div>
+            <div class="center">
+                <H1>Contact US</H1>
+    <form action="" method="post" id="contact" name="contact">
+        <p>
+        <label for="firstName">First Name*</label>
+        <input type="text" name="firstName" id="firstName" maxlength="30" required><br>
+        </p>
+
+        <p>
+        <label for="lastName">Last Name*</label>
+        <input type="text" name="lastName" id="lastName" maxlength="30" required><br>
+        </p>
+
+        <p>
+        <label for="email" required>Email*</label>
+        <input type="email" name="email" id="email" placeholder="me@email.com" maxlength="75" required><br>
+        </p>
+
+        <p>
+        <label for="reason">Message</label><br>
+        <textarea name="reason" id="reason" cols="20" rows="5" maxlength="250"></textarea><br><br>
+        
+        </p>
+
+        <p>
+        Do you want us to save your email <br> for future updates about your <br>questions?
+        </p>
+        <p>  
+            <input type="radio" value ="yes" name="signUp" id="yes"><label style="display: inline;" for="yes">Yes</label>
+            <input type="radio" value ="not" name="signUp" id="not"><label style="display: inline;" for="not">Not</label>
+        </p>
+
+        <p>
+        <input type="submit" value="Submit Answers">
+        <input type="reset" value="Reset Form">
+        </p>
+    </form>
+            </div>
+            <div class="right"></div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="footer">
+            <ul class="footer">  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="all-news.html">All News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

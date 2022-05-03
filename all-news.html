@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy News</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .all-news{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <!-- MENU -->
+    <header>
+        <nav class="header">
+            <ul class="logo">
+                <li><a href="index.html">E/N</a></li>
+            </ul>
+            <ul class="nav-bar">
+                <li><a href="index.html">EASY NEWS</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <ul class="menu">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <img class="fa" src="images/Asset.svg" width="50px" alt="">
+                    </button>
+                </ul>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="all-news.html">All News</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- LOGO -->
+
+
+    <!-- MAIN -->
+    <main>
+        <div class="main">
+            <div class="left"></div>
+            <div class="center">
+                <table>
+                    <h1>All News</h1>
+                    <tr>
+                        <th>News</th>
+                        <th>Release date</th>
+                        <th>Description</th>
+                    
+                    </tr>
+                    <tr>
+                        <th class="vertical-heading"><a href="index.html">James Webb Space Telescope completes alignment</a></th> <!--Model-->
+                        <td>February 2022</td><!--Release date-->
+                        <td>The $10 billion observatory will begin scientific operations this summer.</td><!--Description-->
+                    </tr>
+                    <tr>
+                        <th class="vertical-heading"><a href="news2.html">NASA's James Webb Space Telescope reaches alignment milestone, shares stunning view of cosmos</a></th><!--Model-->
+                        <td>September 2021</td><!--Release date-->
+                        <td>Webb's first full-resolution imagery and science data will be released this summer.</td><!--Description-->
+                    </tr>
+                    <tr>
+                        <th class="vertical-heading"><a href="news3.html">James Webb space telescope's image of star gets photobombed by galaxies</a></th><!--Model-->
+                        <td>September 2021</td><!--Release date-->
+                        <td>NASA also looked at a much closer star with 18 separate images from its mirror segments.</td><!--Description-->
+                    </tr>
+            </table>
+            <a href="index.html" class="all-news">Home</a>
+            </div>
+            <div class="right"></div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="footer">
+            <ul class="footer">  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="all-news.html">All News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
